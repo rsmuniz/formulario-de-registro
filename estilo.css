@@ -18,19 +18,21 @@ padding: 0%;
     margin-left: 0%;
 
 }
-/*Sem borda no fieldset*/
+/*Borda no fieldset*/
 fieldset{
 
-    border: 0;
+    border: 1;
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-
 
 /*Fprmatação de tudo que tem no Body*/
 body{
 background-color:#daf1ff;
-font-family: Arial, Helvetica, sans-serif;
+font-family:sans-serif;
 font-size: 1em;
-color:darkorange;
+color:rgb(0, 0, 0);
 margin-top:3%
 }
 
@@ -43,7 +45,20 @@ margin-top:3%
 
 /*Formatação Contatos*/
 
-#dados-contato,#contato,#dados-cep{
+#dados-contato,#contato,#dados-cep,#telefone{
 
     margin-left: 1%;
+    text-align: center;
+}
+
+input,select{
+
+    border-radius: 3px;
+}
+
+.campo{
+    font-family:sans-serif;
+    font-size: 20px;    
+    
+    
 }

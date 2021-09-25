@@ -23,37 +23,37 @@
 
    <!-- Início do formulário -->
   <form>
-    <fieldset>
+    
         <div id="pessoal">
-           <label>Nome Completo</label>
+           <label class="campo">Nome Completo</label>
            &nbsp;&nbsp;
            <input type="text" name="nome" id="nome"> 
            &nbsp;&nbsp; &nbsp;&nbsp;
-            <label for="cpf">CPF</label>
+            <label class="campo">CPF</label>
             <input type="text" name="cpf" id="cpf"> 
             &nbsp;&nbsp; &nbsp;&nbsp;
-              <label for="rg">RG</label>
+              <label class="campo">RG</label>
               <input type="text" name="rg" id="rg">
             </div>
               <br> <br>
            <div id="sexo">
-            <label>Sexo:</label>
+            <label class="campo">Sexo:</label>
             <label>
                 
-                <input  type="radio" name="devweb" value="Masculino">Masculino  
+                <input  type="radio" name="devweb" value="Masculino"> &nbsp;Masculino  
                 &nbsp;
-                <input type="radio" name="devweb" value="Feminino"> Feminino
+                <input type="radio" name="devweb" value="Feminino"> &nbsp;Feminino
             </label>
             </div>
         </div>
 
-     </fieldset>
+     
    
      <br> <br> <br>
 
          <!-- Início dados de contato -->
 
-            <fieldset>
+            <fieldset id="borda-contato">
                  
               <h2 id="contato"> Informe dados de Contato</h2>
               <br><br>
@@ -116,10 +116,29 @@
                       <option value="TO">Tocantins</option>
                      </select>
 
+                </div>
+                 <br><br><br>
 
-
+                <div id="telefone">
+                    <label for="celular">Telefone Celular</label>
+                    <input type="text" name="celular" id="celular">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="fixo">Telefone Fixo</label>
+                    <input type="text" name="fixo" id="fixo">
 
                 </div>
+       
+         
+        
+                    
+
+
+
+                
+
+
+
+                
             </fieldset>
        </form>
    </body>
