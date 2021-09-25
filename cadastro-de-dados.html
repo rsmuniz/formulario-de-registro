@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,115 +11,117 @@
     <!-- Título da página (aparece na aba) -->
     <title>Cadastro de Dados</title>
 
-</head>
+ </head>
 
-<body>
-
-     <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
-  <div>
-<h1 id="titulo"> Cadastro Pessoal</h1>
-  <p id="subtitulo">Preencha os campos abaixo</p>
-  <br>
-  </div>
+   <body>
+ <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div">
+        <h1 id="titulo"> Cadastro Pessoal</h1>
+          <p id="subtitulo">Preencha os campos abaixo</p>
+          <br>
+    </div>
 
    <!-- Início do formulário -->
   <form>
     <fieldset>
-        <div id="formulario">
-         <label>Nome Completo</label>
-         <input type="text" name="nome" id="nome"> 
-         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-         <label>CPF</label>
-         <input type="text" name="cpf" id="cpf"> 
-         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-          <label>RG</label>
-         <input type="text" name="rg" id="rg">
-        </div>
-        <br>
-        <div id="sexo">
+        <div id="pessoal">
+           <label>Nome Completo</label>
+           &nbsp;&nbsp;
+           <input type="text" name="nome" id="nome"> 
+           &nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf"> 
+            &nbsp;&nbsp; &nbsp;&nbsp;
+              <label for="rg">RG</label>
+              <input type="text" name="rg" id="rg">
+            </div>
+              <br> <br>
+           <div id="sexo">
             <label>Sexo:</label>
             <label>
-                <input type="radio" name="devweb" value="Masculino">Masculino  
+                
+                <input  type="radio" name="devweb" value="Masculino">Masculino  
                 &nbsp;
                 <input type="radio" name="devweb" value="Feminino"> Feminino
             </label>
+            </div>
         </div>
-    </fieldset>
+
+     </fieldset>
    
-    <br> <br>
+     <br> <br> <br>
 
- <fieldset>
-    
-        <h2 id="contato"> Informe dados de Contato</h2>
+         <!-- Início dados de contato -->
 
-            <div>
-             <label>Endereço</label>
-             &nbsp;
-              <input type="text" name="endereço" id="endereço">
-            </div>
-               <br>
-            <div>
-                <label>Número</label>
-                &nbsp;&nbsp;&nbsp;
-                <input type="text" name="numero" id="numero">
-            </div>
-           <br>
-            <div>
-              <label>Bairro</label>
-               <input type="text" name="bairro" id="bairro">
-            </Div>
-            <br>
-            <div>
-              <label>CEP</label>
-                <input type="text" name="cep" id="cep">
-            </div>
-            <br>
-            <div>
-                <label>Cidade</label>
-                   <input type="text" name="cidade" id="cidade">
-            </div>
-            <br>
-        
-        <label>Estado</label>
-        <select id="UF" name="UF">
-            <option value="">Selecione</option>
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
-            <option value="AP">Amapá</option>
-            <option value="AM">Amazonas</option>
-            <option value="BA">Bahia</option>
-            <option value="CE">Ceará</option>
-            <option value="DF">Distrito Federal</option>
-            <option value="ES">Espirito Santo</option>
-            <option value="GO">Goiás</option>
-            <option value="MA">Maranhão</option>
-            <option value="MS">Mato Grosso do Sul</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PA">Pará</option>
-            <option value="PB">Paraíba</option>
-            <option value="PR">Paraná</option>
-            <option value="PE">Pernambuco</option>
-            <option value="PI">Piauí</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="RN">Rio Grande do Norte</option>
-            <option value="RS">Rio Grande do Sul</option>
-            <option value="RO">Rondônia</option>
-            <option value="RR">Roraima</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="SP">São Paulo</option>
-            <option value="SE">Sergipe</option>
-            <option value="TO">Tocantins</option>
-        </select>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label>Telefone Celular</label>
-        <input type="text" name="celular" id="celular">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label>Telefone Fixo</label>
-        <input type="text" name="fixo" id="fixo">
-          
+            <fieldset>
+                 
+              <h2 id="contato"> Informe dados de Contato</h2>
+              <br><br>
 
-    </fieldset>
-  </form>
-</body>
-</html>
+                <div id="dados-contato">               
+                
+                    <label>Endereço</label>
+                    &nbsp;
+                    <input type="text" name="endereço" id="endereço">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Número</label>
+                    &nbsp;
+                    <input type="text" name="numero" id="numero">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="bairro">Bairro</label>
+                    &nbsp;
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+                 <br><br><br>
+
+                <div id="dados-cep">
+                    <label for="cep">CEP</label>
+                    &nbsp;
+                    <input type="text" name="cep" id="cep">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="cidade">Cidade</label>
+                    &nbsp;
+                    <input type="text" name="cidade" id="cidade">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="estado">Estado</label>
+                    &nbsp;
+                   <select id="UF" name="UF">
+                      <option value="">Selecione</option>
+                      <option value="AC">Acre</option>
+                      <option value="AL">Alagoas</option>
+                      <option value="AP">Amapá</option>
+                      <option value="AM">Amazonas</option>
+                      <option value="BA">Bahia</option>
+                      <option value="CE">Ceará</option>
+                      <option value="DF">Distrito Federal</option>
+                      <option value="ES">Espirito Santo</option>
+                      <option value="GO">Goiás</option>
+                      <option value="MA">Maranhão</option>
+                      <option value="MS">Mato Grosso do Sul</option>
+                      <option value="MT">Mato Grosso</option>
+                      <option value="MG">Minas Gerais</option>
+                      <option value="PA">Pará</option>
+                      <option value="PB">Paraíba</option>
+                      <option value="PR">Paraná</option>
+                      <option value="PE">Pernambuco</option>
+                      <option value="PI">Piauí</option>
+                      <option value="RJ">Rio de Janeiro</option>
+                      <option value="RN">Rio Grande do Norte</option>
+                      <option value="RS">Rio Grande do Sul</option>
+                      <option value="RO">Rondônia</option>
+                      <option value="RR">Roraima</option>
+                      <option value="SC">Santa Catarina</option>
+                      <option value="SP">São Paulo</option>
+                      <option value="SE">Sergipe</option>
+                      <option value="TO">Tocantins</option>
+                     </select>
+
+
+
+
+                </div>
+            </fieldset>
+       </form>
+   </body>
+
+   </html>

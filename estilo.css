@@ -1,20 +1,49 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+/* Formatação do titulo*/
 #titulo{
-
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 10);
+    
 }
+/* Formatação do subtitulo*/
 #subtitulo{
-
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(10, 0, 0);
+    margin-left: 0%;
+
 }
-#formulario{
+/*Sem borda no fieldset*/
+fieldset{
 
-    text-align: center;
+    border: 0;
 }
-#sexo{
 
-    text-align: center;
+
+/*Fprmatação de tudo que tem no Body*/
+body{
+background-color:#daf1ff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+color:darkorange;
+margin-top:3%
 }
-#contato{
+
+/*Formatação Dados Pessoais*/
+#pessoal,#sexo{
 
     text-align: center;
+    margin-top: 2%;
+}
+
+/*Formatação Contatos*/
+
+#dados-contato,#contato,#dados-cep{
+
+    margin-left: 1%;
 }
