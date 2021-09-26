@@ -9,6 +9,7 @@
 body{
 
     margin: 0;
+    
 }
 
 #container{
@@ -20,17 +21,22 @@ body{
      display: block;
      position: static;
      text-align: center;
+     color:black;
+     
      
      
      
 }
 #titulo{
     text-align: center;
-    color: #ff3300;
+    color: #aa2b05;
     font-size: 2em;
+    
 }
 #subtitulo{
     font-size: 20px;
+    color: #aa2b05;
+    font-weight:600;
 }
 
 fieldset{
@@ -70,7 +76,7 @@ fieldset{
     font-family: serif;
     font-style: normal;
     font-size: 21px;
-    font-weight:500;
+    font-weight:600;
     
 }
 input{
