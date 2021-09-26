@@ -1,17 +1,21 @@
 # formulario-de-registro
 
-Página de cadastro de dados pessoais, desafio feito para etapa final do projeto da  Gama Academy e do Itau.
+Página de cadastro de dados pessoais feita para o desafio da etapa final do projeto da  Gama Academy e do Itau.
 
 Funcionamento
+
 Página desenvolvida em HTML explorando recursos do JS e do CSS.
 
 Funções
+
 Botão de enviar  com mensagem de  confirmação de dados enviados. Caixa de seleção de estados adicionada ao trabalho.
 
 CSS
-Estilização  feita com imagem de fundo  dando melhor sensação de preenchimento de formulario , com mudança na fontes das letras,tamanho,cor,margens e alinhamento  de tudo.
+
+Estilização  feita com imagem de fundo  dando melhor sensação de preenchimento de formulario , com mudanças na fonte das letras,tamanho,cor,margens e alinhamento  de tudo.
 
 Observações
+
 Página desenvolvida  com conhecimento base adquirido somente  nas aulas assistidas na plataforma da Gama e de pesquisas feitas  na internet eu analisava o que poderia ser feito e pesquisava formas de realizar.
 
 Links de Pesquisa:
