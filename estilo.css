@@ -1,64 +1,95 @@
 *{
-margin: 0%;
-padding: 0%;
+    margin: 0%;
+    padding: 0%;
+    }
+    
+
+
+
+body{
+
+    margin: 0;
 }
 
-/* Formatação do titulo*/
+#container{
+
+     width: 100vw;
+     height: 100vh;
+     background: url(img/img-formulario.jpg);
+     background-size: cover;
+     display: block;
+     position: static;
+     text-align: center;
+     
+     
+     
+}
 #titulo{
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:rgb(0, 0, 10);
-    
+    color: #ff3300;
+    font-size: 2em;
 }
-/* Formatação do subtitulo*/
 #subtitulo{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(10, 0, 0);
-    margin-left: 0%;
-
+    font-size: 20px;
 }
-/*Borda no fieldset*/
-fieldset{
 
+fieldset{
     border: 1;
-    border-radius: 40px;
+    border-radius: 30px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 1%;
+    height: 515px;
+    width: 75em;
+    text-align: center;
+    border-color:black;
+    
+    
+    
+
+    
 }
-
-/*Fprmatação de tudo que tem no Body*/
-body{
-background-color:#daf1ff;
-font-family:sans-serif;
-font-size: 1em;
-color:rgb(0, 0, 0);
-margin-top:3%
-}
-
-/*Formatação Dados Pessoais*/
-#pessoal,#sexo{
-
+#nome,#cpf,#rg{
     text-align: center;
     margin-top: 2%;
+    
+
 }
-
-/*Formatação Contatos*/
-
-#dados-contato,#contato,#dados-cep,#telefone{
-
-    margin-left: 1%;
-    text-align: center;
-}
-
-input,select{
-
-    border-radius: 3px;
-}
-
 .campo{
-    font-family:sans-serif;
-    font-size: 20px;    
+    font-family:serif;
+     font-style:normal;
+     font-size: 20px;
+     font-weight:900;
+}
+#sexo{
+    font-family: serif;
+    font-style: normal;
+    font-size: 25px;
+}
+#fm{
+    font-family: serif;
+    font-style: normal;
+    font-size: 21px;
+    font-weight:500;
     
-    
+}
+input{
+
+    border-radius: 5px;
+    height: 20px;
+    border-color: black;
+}
+select{
+    border-radius: 5px;
+    height: 30px;
+    border-color: black;
+    border-width: 2px;
+}
+#botao{
+    font-size: 20px;
+    font-family: serif;  
+}
+input[type=radio] {
+    border: 50px;
+    width: 15px;
 }
