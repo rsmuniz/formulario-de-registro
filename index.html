@@ -9,11 +9,17 @@
           <title>Cadastro de Dados</title>
 
             <link rel="stylesheet" href="estilo.css">
+            <script>
+              function funcao1()
+                   {
+                    alert("Obrigado por enviar seus dados");
+                    }
+            </script>
 
       </head>
           <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
     <body>
-      <div id="container">
+        <div id="container">
 
            <h1 id="titulo"> Cadastro Pessoal</h1>
            <p id="subtitulo">Preencha os campos abaixo</p>
@@ -116,24 +122,23 @@
                                 <label class="campo">Telefone Fixo</label>
                                <input type="text" name="fixo" id="fixo">
 
-                             </div>
-                             <br><br>
-                              <button id="botao" type="submit">Enviar</button>
-                            <div>
-                                <br>
-                                <p> &copy; Todos os direitos reservados. </p>
                             </div>
-
-
+                             <br><br>
+                             <button id="botao" onclick="envio()">Enviar</button>
+                                
+                             <div>
+                              <br>
+                                  <p> &copy; Todos os direitos reservados. </p>
+                              </div>
                </fieldset>
-
-
              </form>
         </div>
-
-     </body>
+                                      <script>
+                                       function envio() { alert("Obrigado por preencher seus dados! ")}
+                                       </script>
+        </body>
    
-       <script src="./jscript/script.js"></script>
+       
          
 
 </html>
